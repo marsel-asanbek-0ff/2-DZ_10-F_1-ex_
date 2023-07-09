@@ -1,11 +1,6 @@
-var triangle = "*";
-
-while (triangle.length<=7){
-
-    console.log(triangle);
-
-
-    triangle+="*";
-
+let triangle = '';
+for (let i = 1; i <= 7; i++) {
+  triangle += '*';
+  console.log(triangle);
 }
 
